@@ -20,6 +20,9 @@ public class CourseController {
 	public List<Course> getAllCourses(@PathVariable String id){
 		
 		return courseService.getAllCourses(id);
+		
+		
+		
 	}
 	
 	
